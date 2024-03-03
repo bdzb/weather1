@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div id="nav">
+        <h1>WEATHER REPORTS</h1>
+        <div>
+            <input type="text" placeholder="city name" id="cityname" spellcheck="true">
+            <button onclick="weather()">get</button>
+        </div>
+    </div>
+
+    <div>
+
+        <img src="images.jpg" alt="Your Image" class="rotating-image" height="100px" style=" position: absolute;
+    top: 30px;
+    left: 30px;">
+
+        <img src="download3.jpg" alt="Your Image" class="rotating-image" height="130px" style=" position: absolute;
+top: 25px;
+right: 40px;">
+
+
+
+        <div class="c">
+
+            <section id="display">
+                <div id="city" class="grid"></div>
+                <div id="state" class="grid"></div>
+                <div id="temperature" class="grid"></div>
+                <div id="time" class="grid"></div>
+                <div id="hum"></div>
+                <div id="wind" class="grid"></div>
+            </section>
+
+        </div>
+
+</body>
+<script src="script1.js"></script>
+
+</html>

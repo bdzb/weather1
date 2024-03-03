@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0;
+
+}
+
+
+#nav {
+    height: 160px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+
+    margin-top: 30px;
+    border: 1px solid white;
+    text-align: center;
+    width: 30vw;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    height: 30px;
+    cursor: pointer;
+
+
+}
+
+button {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.rotating-image {
+    animation: rotate 4s linear infinite;
+
+    border-radius: 180px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+div {
+    color: #000000;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#display {
+    width: 60%;
+    border: 1px solid yellow;
+    height: 30vh;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+
+}
+
+.grid {
+    border: 1px solid black;
+}
+
+body {
+    background-color: black;
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
